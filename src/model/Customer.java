@@ -13,6 +13,7 @@ public class Customer {
         this.name = name;
         this.parcelIds = new ArrayList<>();
     }
+    
 
     public String getName() {
         return name;
@@ -25,4 +26,6 @@ public class Customer {
     public void addParcel(String parcelId) {
         this.parcelIds.add(parcelId);
     }
+    
+    
 }

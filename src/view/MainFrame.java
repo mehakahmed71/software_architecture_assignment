@@ -44,6 +44,7 @@ public class MainFrame extends JFrame {
         parcelListArea.setEditable(false);
         feeListArea = new JTextArea(10, 30);
         feeListArea.setEditable(false);
+        
 
         // Add components to the frame
         JPanel panel = new JPanel(new GridLayout(3, 1));

@@ -1,10 +1,12 @@
 package model;
 
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class ParcelMap {
     private Map<String, Parcel> parcels;
+    
 
     public ParcelMap() {
         parcels = new HashMap<>();

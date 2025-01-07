@@ -11,6 +11,7 @@ public class Log {
     private Log() {
         logBuffer = new StringBuffer();
     }
+    
 
     public static Log getInstance() {
         if (instance == null) {
@@ -18,6 +19,7 @@ public class Log {
         }
         return instance;
     }
+    
 
     public void addLog(String event) {
         logBuffer.append(event).append("\n");

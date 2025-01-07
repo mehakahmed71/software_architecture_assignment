@@ -1,5 +1,6 @@
 package model;
 
+
 public class Parcel {
     private String id;
     private double weight;
@@ -11,6 +12,7 @@ public class Parcel {
         this.destination = destination;
     }
 
+    
     public String getId() {
         return id;
     }
