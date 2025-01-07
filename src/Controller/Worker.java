@@ -10,7 +10,6 @@ public class Worker {
 	private QueueofCustomers queue;
 	private ParcelMap parcels;
 
-
 	public Worker(QueueofCustomers queue , ParcelMap parcels) {
 		this.queue = queue;
 		this.parcels = parcels;

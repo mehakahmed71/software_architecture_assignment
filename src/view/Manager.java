@@ -10,7 +10,6 @@ import model.QueueofCustomers;
 
 public class Manager {
     public static void main(String[] args) {
-        // Initialize objects
         QueueofCustomers queue = new QueueofCustomers();
         ParcelMap parcels = new ParcelMap();
         Worker worker = new Worker(queue, parcels);
